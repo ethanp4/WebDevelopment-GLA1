@@ -13,11 +13,10 @@ var button = document.createElement("button")
 button.textContent = "text"
 body.appendChild(button)
 
-
 var resultDiv = document.createElement("div")
 body.appendChild(resultDiv)
 
-
+//function for button onclick
 button.onclick = () => {
     if (isNaN(input1.value) || isNaN(input2.value)) {
         resultDiv.innerHTML = "Please enter a number"
